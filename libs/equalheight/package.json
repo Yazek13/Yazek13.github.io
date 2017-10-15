@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "equalheight",
+        "scope": null,
+        "escapedName": "equalheight",
+        "name": "equalheight",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Yazek\\Desktop\\Armata Financical Group\\_html"
+    ]
+  ],
+  "_from": "equalheight@latest",
+  "_id": "equalheight@1.1.2",
+  "_inCache": true,
+  "_location": "/equalheight",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/equalheight-1.1.2.tgz_1494707176232_0.07415792974643409"
+  },
+  "_npmUser": {
+    "name": "danhayden",
+    "email": "dan@tutonics.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "equalheight",
+    "scope": null,
+    "escapedName": "equalheight",
+    "name": "equalheight",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/equalheight/-/equalheight-1.1.2.tgz",
+  "_shasum": "412105d446efbd236ba42eceb9dab2891a3218fd",
+  "_shrinkwrap": null,
+  "_spec": "equalheight",
+  "_where": "C:\\Users\\Yazek\\Desktop\\Armata Financical Group\\_html",
+  "author": {
+    "name": "https://github.com/danhayden"
+  },
+  "bugs": {
+    "url": "https://github.com/danhayden/equalheight/issues"
+  },
+  "dependencies": {},
+  "description": "Small utility to make DOM elements equal height when they have to same top offset",
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-preset-env": "1.4.0",
+    "rollup": "0.41.6",
+    "rollup-plugin-babel": "2.7.1",
+    "rollup-plugin-node-resolve": "3.0.0",
+    "rollup-plugin-uglify": "1.0.2",
+    "rollup-watch": "3.2.2",
+    "standard": "10.0.2",
+    "standard-version": "4.0.0",
+    "uglify-js-harmony": "2.7.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "412105d446efbd236ba42eceb9dab2891a3218fd",
+    "tarball": "https://registry.npmjs.org/equalheight/-/equalheight-1.1.2.tgz"
+  },
+  "files": [
+    "dist"
+  ],
+  "gitHead": "b1f7fcbc9fa6125743af2944f454ed4356893d06",
+  "homepage": "https://github.com/danhayden/equalheight",
+  "license": "MIT",
+  "main": "dist/equalheight.js",
+  "maintainers": [
+    {
+      "name": "danhayden",
+      "email": "dhayden09@gmail.com"
+    }
+  ],
+  "module": "dist/equalheight.es.js",
+  "name": "equalheight",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danhayden/equalheight.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "changelog": "standard-version",
+    "dev": "rollup -c -w",
+    "lint": "standard --format",
+    "prepublish": "npm run build",
+    "pretest": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "dist/**"
+    ]
+  },
+  "umd:main": "dist/equalheight.umd.js",
+  "version": "1.1.2"
+}
